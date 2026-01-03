@@ -4,6 +4,10 @@ import Hero from "./components/Hero";
 import CompanyLogo from "./components/CompanyLogo";
 import PurposeSection from "./components/PurposeSection";
 import FeatureSection from "./components/FeatureSection";
+import ScheduleSection from "./components/ScheduleSection";
+import MonitorSection from "./components/MonitorSection";
+import PricingSection from "./components/PricingSection";
+import ServicesSection from "./components/ServicesSection";
 
 const App = () => {
   return (
@@ -12,9 +16,13 @@ const App = () => {
       <div className="overflow-hidden">
         <Navbar />
         <Hero />
-        <CompanyLogo/>
-        <PurposeSection/>
-        <FeatureSection/>
+        <CompanyLogo />
+        <PurposeSection />
+        <FeatureSection />
+        <ScheduleSection />
+        <MonitorSection/>
+        <PricingSection/>
+        <ServicesSection/>
       </div>
     </main>
   );
