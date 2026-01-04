@@ -48,7 +48,7 @@ const TestimonialSection = () => {
     },
   ];
   return (
-    <section className="py-16 px-4 max-w-7xl mx-auto">
+    <section id="testimonials" className="py-16 px-4 max-w-7xl mx-auto">
       <div className="text-center mb-12 space-y-4">
         <h2 className="text-3xl font-bold md:text-4xl">
           What our happy client say.
