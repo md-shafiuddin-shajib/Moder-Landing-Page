@@ -8,7 +8,7 @@ import "../assets/app.css";
 const CompanyLogo = () => {
   const logos = [slack, amazon, woocommerce, mundies, sitepoint];
   return (
-    <div className="w-full container mx-auto py-20 flex flex-col sm:flex-row sm:items-center items-start  overflow-hidden gap-2">
+    <div className="w-full max-w-7xl mx-auto py-20 flex flex-col sm:flex-row sm:items-center items-start  overflow-hidden gap-2">
       <div className="w-75 shrink-0 text-gray-600 border-l-4 border-blue-500 bg-white py-2 z-10 sm:text-base text-xl font-semibold text-left px-4 ">
         Proud Partment at <br />
         Hubspot & Segment

@@ -34,7 +34,10 @@ const ServicesSection = () => {
   ];
 
   return (
-    <section className="py-20 container mx-auto px-4 sm:px-6 lg:px-8">
+    <section
+      id="services"
+      className="py-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
+    >
       <div className="flex flex-col md:flex-row items-center justify-between gap-12 lg:gap-18">
         {/* header*/}
         <div className="w-full md:w-1/3">
@@ -73,7 +76,12 @@ const ServicesSection = () => {
 
               <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
               <p className="text-gray-600 mb-4">{service.description}</p>
-              <a href={service.link} className="text-indigo-600 font-semibold hover:text-indigo-700 transition-colors">LEARN MORE</a>
+              <a
+                href={service.link}
+                className="text-indigo-600 font-semibold hover:text-indigo-700 transition-colors"
+              >
+                LEARN MORE
+              </a>
             </div>
           ))}
         </div>

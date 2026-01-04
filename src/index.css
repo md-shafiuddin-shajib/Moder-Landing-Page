@@ -1,6 +1,8 @@
 @import "tailwindcss";
 
-html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 80px;
+@layer base {
+  html {
+    scroll-behavior: smooth !important;
+    scroll-padding-top: 80px;
+  }
 }

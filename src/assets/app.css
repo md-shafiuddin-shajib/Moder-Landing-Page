@@ -7,3 +7,26 @@
   }
   100%{transform: translateX(-50%);}
 }
+
+
+
+.testimonials-swiper{
+  padding: 20px 0;
+}
+
+
+.testimonials-swiper .swiper-slide {
+ height: auto;
+}
+
+
+/* hide default swiper button navigation */
+.testimonials-swiper .swiper-button-next::after,
+.testimonials-swiper .swiper-button-prev::after {
+  display: none;
+}
+ .swiper-button-next-custom.swiper-button-disabled,
+.swiper-button-prev-custom.swiper-button-disabled {
+ opacity: 0.2;
+  pointer-events: none;
+}

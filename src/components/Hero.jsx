@@ -3,7 +3,7 @@ import heroImage from "../assets/hero-image.png";
 
 const Hero = () => {
   return (
-    <section id="home" className="container mx-auto flex flex-col md:flex-row justify-between items-center pt-44 pb-16 px-4 sm:px-6 lg:px-8 ">
+    <section id="home" className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center pt-44 pb-16 px-4 sm:px-6 lg:px-8 ">
       {/* left column */}
       <div className="w-full md:w-1/2 space-y-8">
         {/* start badge */}
@@ -15,7 +15,7 @@ const Hero = () => {
           <span className="text-sm font-medium">Jump start your growth</span>
         </div>
 
-        <h1 className="text-4xl md:text-5xl lg:text-6xl leading-tight font-semibold">
+        <h1 className="text-3xl md:text-4xl lg:text-6xl leading-tight font-semibold">
           We boost the growth for{" "}
           <span className="text-blue-600 font-bold relative">
             Startup to Fortune 500{" "}
